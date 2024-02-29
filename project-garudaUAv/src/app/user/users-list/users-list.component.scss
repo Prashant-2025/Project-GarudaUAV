@@ -1,0 +1,101 @@
+.header{
+    color: #646464;
+}
+.card{
+    background-color: #f3f3f3;
+    height: 60px;
+}
+.grid-view{
+    background-color: #f3f3f3;
+}
+.ml-1{
+    margin-left: 1%;
+}
+.pl-1{
+    padding-left: 10px;
+}
+/* search.component.css */
+.search-container {
+    position: relative;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 350px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+  
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #888;
+    cursor: pointer;
+  }
+
+  .btn{
+    padding-top: 4px;
+    padding-bottom: 5px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+  .filter-icon{
+    padding-top: 5px;
+    right: 10px;
+    color: #84dfd5;
+    cursor: pointer;
+  }
+  .filter-btn{
+    background-color: #fff;
+  }
+  .txt-color{
+    color: #828080;
+  }
+
+  .pl-2{
+    padding-left: 30%;
+  }
+
+  .add-btn{
+    background-color: #84dfd5;
+  }
+
+  .list-btn{
+    color: #84dfd5;
+  }
+
+  table{
+    border: 1px solid lightgray;
+    width: 100%;
+  }
+  table thead{
+    padding-top: 10px;
+    border-bottom: 1px solid lightgray;
+  }
+  thead th{
+    padding: 20px !important;
+    color: #828080;
+  }
+  table tbody td{
+    padding: 20px;
+  }
+
+  .card-inner{
+    border-radius: 6px;
+    background-color: #fff;
+    padding: 20px;
+
+    .update-icon{
+        position: absolute;
+        top: 5px;
+        right: 30px;
+    }
+    .role{
+        color: #84dfd5;
+    }
+  }

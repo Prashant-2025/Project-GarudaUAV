@@ -1,0 +1,34 @@
+.header{
+    color: #646464;
+}
+.card{
+    background-color: #f3f3f3;
+    height: 60px;
+}
+.input-container {
+    position: relative;
+  }
+  
+  input,textarea {
+    padding: 10px;
+    background-color: #f6f6f6;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+  ::ng-deep .mdc-switch:enabled .mdc-switch__track::before {
+    background: #616161 !important;
+  }
+  ::ng-deep .mdc-switch:enabled .mdc-switch__track::after {
+    background: rgb(67 160 71) !important;
+  }
+ :ng-deep .mdc-switch.mdc-switch__icons.mdc-switch--unselected:enabled .mdc-switch__icon {
+   fill: #fafafa !important;
+  }
+  :ng-deep .mdc-switch.mdc-switch__icons.mdc-switch--unselected:enabled .mdc-switch__icon--on {
+    fill: #fafafa !important;
+   }
+   :ng-deep .mdc-switch.mdc-switch__icons.mdc-switch--unselected:enabled .mdc-switch__icon--off {
+    fill: #fafafa !important;
+   }
